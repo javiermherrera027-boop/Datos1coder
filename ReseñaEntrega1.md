@@ -17,6 +17,31 @@ En el entorno competitivo actual,**comprender los patrones de comportamiento de 
   * `metodos_pago.csv`: ID y metodos de pago.
   * `productos.csv    : ID productos, precios y stock.
   * `ventas.csv`      : Historial de ventas y montos.
+## Diccionario de de Tablas y claves
+
+1. Tabla: clientes
+  • Descripción: Almacena la información maestra de los clientes.
+  • Clave Primaria (PK): ID_Cliente 
+  • Reglas: Identificador único por cada cliente registrado. No admite valores nulos ni duplicados
+
+2. Tabla: productos
+  • Descripción: Catálogo de productos disponibles para la venta.
+  • Clave Primaria (PK): ID_Producto 
+  • Reglas: Cada artículo posee un código unívoco
+
+3. Tabla: metodo_pago
+  • Descripción: Distintos metodos de pago
+  • Clave Primaria (PK): ID_Metodo 
+  • Reglas: Cada metodo posee un código único
+
+4. Tabla de Ventas: ventas
+  • Descripción: Registro transaccional de ventas
+  • Clave Primaria (PK): ID_Venta (PK compuesta o ID único de transacción)
+  • Claves Foráneas (FK):
+     	              ID_Cliente → clientes(ID_cliente)
+	                   ID_Producto →  productos(ID_producto)
+                    ID_Metodo → metodo_pago (ID_Metodo)
+
 ## Portabilidad y Configuración de Rutas
 
 ```Repositorio
