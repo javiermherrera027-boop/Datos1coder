@@ -20,9 +20,9 @@ En el entorno competitivo actual,**comprender los patrones de comportamiento de 
 ## Portabilidad y Configuración de Rutas
 
 ```text
-Datos1coder
-├── data/
-│   ├── raw/                 # Archivos CSV originales (sin modificar)
+javiermherrera027-boop/
+├── datos1coder/
+│   ├──                  # Archivos CSV originales (sin modificar)
 │   │   ├── categorías.csv
 │   │   ├── clientes.csv
 │   │   ├── metodos_pago.csv
