@@ -1,4 +1,5 @@
 # Proyecto_Final_fase1_Herrera.xlsx
+Abrir el archivo xlsx, ir a la pestaña Datos, Consultas y conecciones, Actualizar todo.
 
 ##  Conjunto de Datos para Analisis de Venta
 Este conjunto de datos fue diseñado como parte de un Examen para el analisis de ventas de un comercio minorista 
