@@ -12,26 +12,24 @@ En el entorno competitivo actual,**comprender los patrones de comportamiento de 
 * **Fecha de extracción:** [23/10/2026]
 * **Periodo de los datos:** Cubre transacciones desde [31/01/2024] hasta [30/12/2024].
 * **Descripción de los archivos:**
-  * `categorias.csv`: Categorizacion de productos.
-  * `clientes.csv`: ID y cartera de clientes.
+  * `categorias.csv`  : Categorizacion de productos.
+  * `clientes.csv`    : ID y cartera de clientes.
   * `metodos_pago.csv`: ID y metodos de pago.
-  * `productos.csv`: ID productos, precios y stock.
-  * `ventas.csv`: Historial de compras y montos.
+  * `productos.csv    : ID productos, precios y stock.
+  * `ventas.csv`      : Historial de ventas y montos.
 ## Portabilidad y Configuración de Rutas
 
-```text
+```Repositorio
 javiermherrera027-boop/
 ├── datos1coder/
-│   ├──                  # Archivos CSV originales (sin modificar)
-│   │   ├── categorías.csv
-│   │   ├── clientes.csv
-│   │   ├── metodos_pago.csv
-│   │   ├── productos.csv
-│   │   └── ventas.csv
-│   └── procesados/           # Archivos CSV limpios, transformados y remocion de columnas para disminuir la redundancia
-│                             # Se combinaron tablas para enriquecer la tabla de hechos con atributos descriptivos    
-│   └── notebooks/            # configuración de orígenes y consultas base en Power Query y Power Pivot
-└──     README.md
+│   │         ├── Proyecto_Final_fase1Herrera.xlxs                 
+│   │         ├── ReseñaEntrega1.md                  
+│   │         ├── categorías.csv                     # Archivos CSV originales (sin modificar)
+│   │         ├── clientes.csv                       # Archivos CSV originales (sin modificar)
+│   │         ├── metodos_pago.csv                   # Archivos CSV originales (sin modificar)
+│   │         ├── productos.csv                      # Archivos CSV originales (sin modificar)
+│   │         └── ventas.csv                         # Archivos CSV originales (sin modificar)
+
 
 
    ```
